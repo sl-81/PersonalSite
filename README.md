@@ -1,7 +1,7 @@
 # Shiyu's Personal Website
 
 - will be built from React.js
-- UI will be designed using Figma
+- UI designed using Figma
 
 Icons Used
 - <a target="_blank" href="https://icons8.com/icon/447/linkedin">Linked in</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
