@@ -4,7 +4,7 @@ function About() {
     return (
       <div className="absolute h-2/3 w-full">
         <span className="
-        text-white 
+        text-black
         text-3xl 
         font-normal 
         font-['Helvetica'] 
@@ -15,7 +15,7 @@ function About() {
         w-16">About<br/>
         </span>
         <span className="
-        text-white 
+        text-black
         text-sm
         font-normal 
         font-['Helvetica'] 

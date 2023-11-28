@@ -2,22 +2,22 @@ import '../index.css';
 
 function Intro() {
     return (
-      <div className="relative h-2/3 w-3/4">
+      <div className="relative h-2/3 w-full">
         <span className="
-        text-white 
+        text-black
         text-5xl 
         font-normal 
         font-['Helvetica']
         absolute
-        top-48
+        top-40
         left-5">Shiyu Li<br/></span>
         <span className="
-        text-white 
-        text-3xl 
+        text-black
+        text-2xl 
         font-normal 
         font-['Helvetica']
         absolute
-        top-64
+        top-56
         left-5">Student, Software Developer and Pharmacist<br/></span>
       </div>
 

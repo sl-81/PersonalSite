@@ -46,6 +46,13 @@ function Connect() {
                     <img className="w-12 h-12" src="src/public/icons/icons8-mail-100.png" />
                 </a> 
             </div>
+            <div className="
+            right-4
+            top-6
+            absolute
+            font-['Helvetica']">
+                <p>© 2023 Shiyu Li</p>
+            </div>
 
         </div>
     );
