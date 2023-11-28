@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../index.css';
 
 function Navbar() {
@@ -9,25 +10,20 @@ function Navbar() {
         font-normal 
         font-['Helvetica']
         right-4
+        p-6
         ">
-        <button className="
+        <Link to="/projects" className="
         p-4
         hover:bg-white">Projects
-        </button>
-        <button className="
+        </Link>
+        <Link to="/" className="
         p-4
         hover:bg-white">Resume
-        </button>
-        <button className="
+        </Link>
+        <Link to="/" className="
         p-4
         hover:bg-white">Home
-        </button>
-        <hr className="
-        h-px 
-        my-1
-        bg-white 
-        border-0
-        w-full"/>
+        </Link>
       </div>
 
     );

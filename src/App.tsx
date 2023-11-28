@@ -1,33 +1,21 @@
+import React from 'react';
 import './index.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProjectPage from './components/ProjectPage';
+import Home from './components/Home';
 
-import backgroundImage from './projectimg/DSC03279.jpg';
 
-import Intro from './components/Intro.tsx';
-import About from './components/About.tsx';
-import Navbar from './components/Navbar.tsx';
-import Connect from './components/Connect.tsx';
+
 
 const App =() => {
-
-  return (
-    <div 
-      className='opacity-80'
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
-        width: '100vw',
-        display: 'flex',
-    }}>
-      <Intro/>
-      <About/>
-      <Navbar/>
-      <Connect/>
-
-    </div>
-
-  );
+  return(
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/projects" element={<ProjectPage/>} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App
+export default App;
