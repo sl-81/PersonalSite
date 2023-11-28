@@ -19,12 +19,6 @@ function Intro() {
         absolute
         top-64
         left-5">Student, Software Developer and Pharmacist<br/></span>
-        <hr className="
-        h-px 
-        my-20 
-        bg-white 
-        border-0
-        w-full"/>
       </div>
 
     );
