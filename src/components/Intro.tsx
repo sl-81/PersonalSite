@@ -2,9 +2,29 @@ import '../index.css';
 
 function Intro() {
     return (
-      <div className="w-[613px] h-[167px] left-[56px] top-[205px] absolute">
-        <span className="text-white text-[50px] font-normal font-['Helvetica']">Shiyu Li<br/></span>
-        <span className="text-white text-4xl font-normal font-['Helvetica']">Student, Software Developer and Pharmacist<br/></span>
+      <div className="relative h-2/3 w-3/4">
+        <span className="
+        text-white 
+        text-5xl 
+        font-normal 
+        font-['Helvetica']
+        absolute
+        top-48
+        left-5">Shiyu Li<br/></span>
+        <span className="
+        text-white 
+        text-3xl 
+        font-normal 
+        font-['Helvetica']
+        absolute
+        top-64
+        left-5">Student, Software Developer and Pharmacist<br/></span>
+        <hr className="
+        h-px 
+        my-20 
+        bg-white 
+        border-0
+        w-full"/>
       </div>
 
     );
