@@ -13,6 +13,7 @@ function Intro() {
       font-normal 
       font-['Helvetica']
       mt-16
+      pb-12
       overflow-y-auto">
         <span className="
         text-5xl 
