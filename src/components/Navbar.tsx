@@ -16,7 +16,7 @@ function Navbar() {
         p-4
         hover:bg-white">Projects
         </Link>
-        <Link to="/resume" target="_blank" className="
+        <Link to="/Shiyu_s_Tech_Resume.pdf" target="_blank" className="
         p-4
         hover:bg-white">Resume
         </Link>
