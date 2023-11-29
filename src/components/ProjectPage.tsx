@@ -1,6 +1,6 @@
 import '../index.css'
 
-import backgroundImage from '../public/projectimg/DSC03279.jpg';
+import backgroundImage from '../../public/DSC03279.jpg';
 import Navbar from './Navbar.tsx';
 import Connect from './Connect.tsx';
 import ProjectPanel from './ProjectPanel.tsx';

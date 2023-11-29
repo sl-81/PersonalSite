@@ -1,4 +1,8 @@
 import '../index.css';
+import linkedin from '../../public/icons/icons8-linked-in-100.png';
+import github from '../../public/icons/icons8-github-96.png';
+import instagram from '../../public/icons/icons8-instagram-100.png';
+import email from '../../public/icons/icons8-mail-100.png'
 
 function Connect() {
     return(
@@ -19,7 +23,7 @@ function Connect() {
             top-4
             absolute">
                 <a href="https://www.linkedin.com/in/shiyu81/" target="_blank">
-                    <img className="w-12 h-12" src="src/public/icons/icons8-linked-in-100.png"/>
+                    <img className="w-12 h-12" src={linkedin} alt="LinkedIn Icon"/>
                 </a>
             </div>
             <div className="
@@ -27,7 +31,7 @@ function Connect() {
             top-4
             absolute">
                 <a href="https://github.com/sl-81" target="_blank">
-                    <img className="w-12 h-12" src="src/public/icons/icons8-github-96.png" />
+                    <img className="w-12 h-12" src={github} alt="Github Icon"/>
                 </a>
             </div>
             <div className="
@@ -35,7 +39,7 @@ function Connect() {
             top-4
             absolute">
                 <a href="https://www.instagram.com/ssssshiyuu/" target="_blank">
-                        <img className="w-12 h-12" src="src/public/icons/icons8-instagram-100.png" />
+                        <img className="w-12 h-12" src={instagram} alt="Instagram Icon"/>
                 </a>
             </div>
             <div className="
@@ -43,7 +47,7 @@ function Connect() {
             top-4
             absolute">
                 <a href="mailto: shiyu.li.1109@gmail.com" target="_blank">
-                    <img className="w-12 h-12" src="src/public/icons/icons8-mail-100.png" />
+                    <img className="w-12 h-12" src={email} alt="Email Icon"/>
                 </a> 
             </div>
             <div className="

@@ -1,5 +1,5 @@
 import '../index.css'
-import backgroundImage from '../public/projectimg/DSC03279.jpg';
+import backgroundImage from '../../public/DSC03279.jpg';
 import Intro from '../components/Intro.tsx';
 import About from '../components/About.tsx';
 import Navbar from '../components/Navbar.tsx';

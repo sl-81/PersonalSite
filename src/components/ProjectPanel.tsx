@@ -1,15 +1,14 @@
 import '../index.css'
 import Project from './Project.tsx';
-import RoboImg from '../public/projectimg/Sciencebot.png'
-import EDImg from '../public/projectimg/Easydose.png'
-import MMImg from '../public/projectimg/Mymeds.png'
-import ETImg from '../public/projectimg/Eventtracker.png'
+import RoboImg from '../../public/projectimg/Sciencebot.png'
+import EDImg from '../../public/projectimg/Easydose.png'
+import MMImg from '../../public/projectimg/Mymeds.png'
+import ETImg from '../../public/projectimg/Eventtracker.png'
 
 
 
 const ProjectPanel =() => {
     return(
-
      <div className="
         relative
         w-full
