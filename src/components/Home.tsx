@@ -9,13 +9,15 @@ import Connect from '../components/Connect.tsx';
 const Home = () => {
     return (
         <div 
-          className='opacity-80'
+          className='
+          fixed-width
+          opacity-80
+          overflow-x-auto'
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100vh',
-            width: '100vw',
             display: 'flex',
         }}>
 
