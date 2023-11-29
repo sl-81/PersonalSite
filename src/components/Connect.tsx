@@ -23,16 +23,16 @@ function Connect() {
     >
       <div className="flex space-x-4">
         <a href="https://www.linkedin.com/in/shiyu81/" target="_blank" rel="noopener noreferrer">
-          <img className="w-12 h-12" src={linkedin} alt="LinkedIn Icon" />
+          <img className="w-10 h-10" src={linkedin} alt="LinkedIn Icon" />
         </a>
         <a href="https://github.com/sl-81" target="_blank" rel="noopener noreferrer">
-          <img className="w-12 h-12" src={github} alt="Github Icon" />
+          <img className="w-10 h-10" src={github} alt="Github Icon" />
         </a>
         <a href="https://www.instagram.com/ssssshiyuu/" target="_blank" rel="noopener noreferrer">
-          <img className="w-12 h-12" src={instagram} alt="Instagram Icon" />
+          <img className="w-10 h-10" src={instagram} alt="Instagram Icon" />
         </a>
         <a href="mailto:shiyu.li.1109@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img className="w-12 h-12" src={email} alt="Email Icon" />
+          <img className="w-10 h-10" src={email} alt="Email Icon" />
         </a>
       </div>
       <div className="
