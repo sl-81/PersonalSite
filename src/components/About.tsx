@@ -6,6 +6,7 @@ function About() {
       fixed
       h-2/3 
       w-full
+      top-1/2
       overflow-y-auto">
         <span className="
         text-black
@@ -13,7 +14,6 @@ function About() {
         font-normal 
         font-['Helvetica'] 
         fixed
-        bottom-72
         left-5
         h-24
         w-16">About<br/>
@@ -24,10 +24,10 @@ function About() {
         font-normal 
         font-['Helvetica'] 
         fixed
-        bottom-56
         left-5
         h-28
         w-full
+        top-2/3
         sm:w-1/2">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
         </span>
       </div>
