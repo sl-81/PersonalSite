@@ -3,10 +3,9 @@ import '../index.css';
 function Intro() {
     return (
       <div className="
-      relative 
+      fixed
       h-2/3 
       w-full 
-      top-1/4 
       flex 
       flex-col
       sm:w-1/2
@@ -14,6 +13,7 @@ function Intro() {
       font-normal 
       font-['Helvetica']
       pb-16
+      mt-16
       overflow-y-auto">
         <span className="
         text-5xl 
@@ -31,7 +31,6 @@ function Intro() {
         p-5">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
         </span>
       </div>
-
     );
 }
 

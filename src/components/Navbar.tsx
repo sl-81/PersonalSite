@@ -10,7 +10,7 @@ function Navbar() {
         font-normal 
         font-['Helvetica']
         right-4
-        p-6
+        p-4
         ">
         <Link to="/projects" className="
         p-4
