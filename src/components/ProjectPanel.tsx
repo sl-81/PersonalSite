@@ -14,10 +14,10 @@ const ProjectPanel =() => {
         w-full
         top-16
         overflow-y-auto
-        pb-12"
+        pb-12
+        h-5/6"
         style={{
             backgroundColor: 'rgba(245, 245, 245, .8)',
-            height: '90vh'
         }}>
         <div className="
         flex 
