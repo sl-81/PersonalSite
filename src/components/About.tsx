@@ -13,7 +13,7 @@ function About() {
         font-normal 
         font-['Helvetica'] 
         fixed
-        bottom-60
+        bottom-72
         left-5
         h-24
         w-16">About<br/>
@@ -24,7 +24,7 @@ function About() {
         font-normal 
         font-['Helvetica'] 
         fixed
-        bottom-36
+        bottom-56
         left-5
         h-28
         w-full

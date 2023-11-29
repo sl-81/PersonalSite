@@ -10,14 +10,14 @@ const Home = () => {
     return (
         <div 
           className='
-          fixed-width
-          opacity-80
-          overflow-x-auto'
+          fixed
+          opacity-80'
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100vh',
+            width: '100vw',
             display: 'flex',
         }}>
 
