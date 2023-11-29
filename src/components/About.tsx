@@ -3,7 +3,7 @@ import '../index.css';
 function About() {
     return (
       <div className="
-      absolute 
+      fixed
       h-2/3 
       w-full
       overflow-y-auto">
@@ -27,7 +27,8 @@ function About() {
         bottom-72
         left-5
         h-28
-        w-1/2">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
+        w-full
+        sm:w-1/2">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
         </span>
       </div>
     );

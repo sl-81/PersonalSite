@@ -17,7 +17,7 @@ function Intro() {
         font-normal 
         font-['Helvetica']
         fixed
-        top-36
+        top-40
         left-5">Student, Software Developer and Pharmacist<br/></span>
          <hr className="
         h-px 
