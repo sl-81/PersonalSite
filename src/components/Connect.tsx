@@ -11,11 +11,12 @@ function Connect() {
       className="
       bg-white 
       bottom-0 
-      absolute 
+      fixed 
       flex 
       items-center 
       justify-between 
-      w-full px-4 
+      w-full 
+      px-4 
       py-2 
       sm:px-8"
       style={{ height: '10vh' }}
