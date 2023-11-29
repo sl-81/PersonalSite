@@ -4,7 +4,7 @@ function Intro() {
     return (
       <div className="
       fixed
-      h-2/3 
+      h-5/6
       w-full 
       flex 
       flex-col
@@ -12,7 +12,6 @@ function Intro() {
       text-black
       font-normal 
       font-['Helvetica']
-      pb-16
       mt-16
       overflow-y-auto">
         <span className="
