@@ -1,7 +1,6 @@
 import '../index.css'
 import backgroundImage from '/DSC03279.jpg';
 import Intro from '../components/Intro.tsx';
-import About from '../components/About.tsx';
 import Navbar from '../components/Navbar.tsx';
 import Connect from '../components/Connect.tsx';
 
@@ -22,7 +21,6 @@ const Home = () => {
         }}>
 
           <Intro/>
-          <About/>
           <Navbar/>
           <Connect/>
           <hr className="

@@ -24,6 +24,19 @@ function Intro() {
         bg-white 
         border-0 
         w-1/2"/>
+
+        <span className="
+        text-black
+        text-base
+        font-normal 
+        font-['Helvetica'] 
+        fixed
+        left-5
+        h-28
+        w-full
+        top-1/2
+        sm:w-1/2">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
+        </span>
       </div>
 
     );
