@@ -14,7 +14,7 @@ const ProjectPanel =() => {
         w-full
         top-16
         overflow-y-auto
-        pb-12
+        pb-20
         h-5/6"
         style={{
             backgroundColor: 'rgba(245, 245, 245, .8)',
