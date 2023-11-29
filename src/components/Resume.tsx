@@ -1,4 +1,4 @@
-import ResumePDF from '../../public/Shiyu_s_Tech_Resume.pdf'
+import ResumePDF from '/Shiyu_s_Tech_Resume.pdf'
 
 const Resume = () => {
     return (

@@ -1,8 +1,8 @@
 import '../index.css';
-import linkedin from '../../public/icons/icons8-linked-in-100.png';
-import github from '../../public/icons/icons8-github-96.png';
-import instagram from '../../public/icons/icons8-instagram-100.png';
-import email from '../../public/icons/icons8-mail-100.png'
+import linkedin from '/icons/icons8-linked-in-100.png';
+import github from '/icons/icons8-github-96.png';
+import instagram from '/icons/icons8-instagram-100.png';
+import email from '/icons/icons8-mail-100.png'
 
 function Connect() {
     return(

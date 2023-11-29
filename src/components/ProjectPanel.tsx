@@ -1,9 +1,9 @@
 import '../index.css'
 import Project from './Project.tsx';
-import RoboImg from '../../public/projectimg/Sciencebot.png'
-import EDImg from '../../public/projectimg/Easydose.png'
-import MMImg from '../../public/projectimg/Mymeds.png'
-import ETImg from '../../public/projectimg/Eventtracker.png'
+import RoboImg from '/projectimg/Sciencebot.png'
+import EDImg from '/projectimg/Easydose.png'
+import MMImg from '/projectimg/Mymeds.png'
+import ETImg from '/projectimg/Eventtracker.png'
 
 
 
