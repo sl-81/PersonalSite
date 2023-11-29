@@ -12,7 +12,9 @@ function Intro() {
       sm:w-1/2
       text-black
       font-normal 
-      font-['Helvetica']">
+      font-['Helvetica']
+      pb-16
+      overflow-y-auto">
         <span className="
         text-5xl 
         p-5">Shiyu Li<br/></span>
@@ -26,8 +28,7 @@ function Intro() {
         border-1"/>
         <span className="
         text-base
-        p-5
-        pb-36">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
+        p-5">Hi, my name is Shiyu, a computer science student enrolled in the Bachelor of Computer Science program at University of British Columbia.<br/>I previously practiced as a pharmacist for 6 years before making a career change to computer science. I enjoy using my programming skills to solve problems I come across.
         </span>
       </div>
 
