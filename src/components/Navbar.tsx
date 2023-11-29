@@ -4,7 +4,7 @@ import '../index.css';
 function Navbar() {
     return (
       <div className="
-        absolute 
+        fixed
         text-black-700 
         text-xl 
         font-normal 
@@ -23,6 +23,12 @@ function Navbar() {
         p-4
         hover:bg-white">Home
         </Link>
+        <hr className="
+            h-px 
+            my-3
+            bg-white 
+            border-1
+            w-full"/>
       </div>
 
     );

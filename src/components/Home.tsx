@@ -24,12 +24,7 @@ const Home = () => {
           <Intro/>
           <Navbar/>
           <Connect/>
-          <hr className="
-            h-px 
-            my-16
-            bg-white 
-            border-0
-            w-full"/>
+
 
         </div>
     );
