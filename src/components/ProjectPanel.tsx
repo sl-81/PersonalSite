@@ -10,7 +10,7 @@ import ETImg from '/projectimg/Eventtracker.png'
 const ProjectPanel =() => {
     return(
      <div className="
-        relative
+        fixed
         w-full
         top-16
         overflow-y-auto

@@ -35,7 +35,9 @@ function Connect() {
           <img className="w-12 h-12" src={email} alt="Email Icon" />
         </a>
       </div>
-      <div className="font-['Helvetica']">
+      <div className="
+      text-xs
+      font-['Helvetica']">
         <p>© 2023 Shiyu Li</p>
       </div>
     </div>

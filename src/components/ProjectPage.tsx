@@ -8,7 +8,9 @@ import ProjectPanel from './ProjectPanel.tsx';
 const ProjectPage =() => {
     return(
     <div 
-        className='opacity-80'
+        className='
+        opacity-80
+        fixed'
         style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
