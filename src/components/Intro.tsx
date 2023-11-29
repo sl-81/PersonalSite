@@ -9,7 +9,7 @@ function Intro() {
         font-normal 
         font-['Helvetica']
         absolute
-        top-40
+        top-24
         left-5">Shiyu Li<br/></span>
         <span className="
         text-black
@@ -17,8 +17,14 @@ function Intro() {
         font-normal 
         font-['Helvetica']
         absolute
-        top-56
+        top-36
         left-5">Student, Software Developer and Pharmacist<br/></span>
+         <hr className="
+        h-px 
+        my-60
+        bg-white 
+        border-0 
+        w-1/2"/>
       </div>
 
     );
