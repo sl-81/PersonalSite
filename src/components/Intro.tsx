@@ -8,7 +8,7 @@ function Intro() {
         text-5xl 
         font-normal 
         font-['Helvetica']
-        absolute
+        fixed
         top-24
         left-5">Shiyu Li<br/></span>
         <span className="
@@ -16,7 +16,7 @@ function Intro() {
         text-2xl 
         font-normal 
         font-['Helvetica']
-        absolute
+        fixed
         top-36
         left-5">Student, Software Developer and Pharmacist<br/></span>
          <hr className="
