@@ -10,7 +10,8 @@ const Home = () => {
         <div 
           className='
           fixed
-          opacity-80'
+          opacity-80
+          overflow-y-auto'
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'cover',
