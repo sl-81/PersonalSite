@@ -4,6 +4,7 @@ import RoboImg from '/projectimg/Sciencebot.png'
 import EDImg from '/projectimg/Easydose.png'
 import MMImg from '/projectimg/Mymeds.png'
 import ETImg from '/projectimg/Eventtracker.png'
+import PBImg from '/projectimg/PharmaBot.png'
 
 
 
@@ -27,9 +28,15 @@ const ProjectPanel =() => {
         max-w-screen-lg 
         mx-auto
         opacity-100">
+        <Project
+        title="PharmaBot"
+        skills="React, Tailwind CSS, TypeScript, Python, AWS, Django"
+        desc="Takes an input from user describing their symptoms and recommend over-the-counter medications if their symptoms are mild enough to not require a doctor visit"
+        src={PBImg}
+        demo="https://devpost.com/software/pharmabot-1zo4m6"/>
         <Project 
             title="UBC Robo Science Advisor"
-            skills="React, Tailwind CSS, JavaScript, Python, Flask"
+            skills="React, Tailwind CSS, JavaScript, Python, Flask, Postman"
             desc="UBC Robo Science Advisor takes a prompt from a user and feeds it to an instance of 
             GPT4 trained on the data from the science advising website. This allows users to have quick answers 
             to their simple advising questions, rather than having to search through the website."
