@@ -4,7 +4,7 @@ import RoboImg from '/projectimg/Sciencebot.png'
 import EDImg from '/projectimg/Easydose.png'
 import MMImg from '/projectimg/Mymeds.png'
 import ETImg from '/projectimg/Eventtracker.png'
-import PBImg from '/projectimg/PharmaBot.png'
+import PBImg from '/projectimg/Pharmabot.png';
 
 
 
@@ -29,11 +29,11 @@ const ProjectPanel =() => {
         mx-auto
         opacity-100">
         <Project
-        title="PharmaBot"
-        skills="React, Tailwind CSS, TypeScript, Python, AWS, Django"
-        desc="Takes an input from user describing their symptoms and recommend over-the-counter medications if their symptoms are mild enough to not require a doctor visit"
-        src={PBImg}
-        demo="https://devpost.com/software/pharmabot-1zo4m6"/>
+         title="PharmaBot"
+            skills="React, Tailwind CSS, TypeScript, Python, AWS, Django"
+            desc="Takes an input from user describing their symptoms and recommend over-the-counter medications if their symptoms are mild enough to not require a doctor visit"
+            src={PBImg}
+            demo="https://devpost.com/software/pharmabot-1zo4m6"/>
         <Project 
             title="UBC Robo Science Advisor"
             skills="React, Tailwind CSS, JavaScript, Python, Flask, Postman"
