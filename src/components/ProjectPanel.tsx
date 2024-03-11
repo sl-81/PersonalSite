@@ -31,7 +31,8 @@ const ProjectPanel =() => {
         opacity-100">
         <Project title="DreamLand"
             skills="React Native, Cohere API, OpenAI DALL-E API, CSS, Firebase, JavaScript"
-            desc="Utilizing cutting-edge AI technology, Dreamland empowers parents to effortlessly generate captivating bedtime stories at the tap of a button.\n Won first place at cmd-f 2024 hackathon in the community building track and second place for best use of Cohere's API"
+            desc="Utilizing cutting-edge AI technology, Dreamland empowers parents to effortlessly generate captivating bedtime stories at the tap of a button. 
+            Won first place at cmd-f 2024 hackathon in the community building track and second place for best use of Cohere's API"
             src={DLImg}
             demo="https://devpost.com/software/dreamland-bxujv3"/>
         <Project
