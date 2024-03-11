@@ -5,6 +5,7 @@ import EDImg from '/projectimg/Easydose.png'
 import MMImg from '/projectimg/Mymeds.png'
 import ETImg from '/projectimg/Eventtracker.png'
 import PBImg from '/projectimg/Pharmabot.png';
+import DLImg from '/projectimg/Dreamland.png';
 
 
 
@@ -28,6 +29,11 @@ const ProjectPanel =() => {
         max-w-screen-lg 
         mx-auto
         opacity-100">
+        <Project title="DreamLand"
+            skills="React Native, Cohere API, OpenAI Dall-E API, CSS, Firebase, JavaScript"
+            desc="Utilizing cutting-edge AI technology, Dreamland empowers parents to effortlessly generate captivating bedtime stories at the tap of a button. Won second place at cmd-f 2024 hackathon"
+            src={DLImg}
+            demo="https://devpost.com/software/dreamland-bxujv3"/>
         <Project
          title="PharmaBot"
             skills="React, Tailwind CSS, TypeScript, Python, AWS, Django"
@@ -66,6 +72,7 @@ const ProjectPanel =() => {
             list of upcoming events at the user’s request."
             src={ETImg}
             demo="https://www.youtube.com/watch?v=bZM6PUbXBZw&ab_channel=ShiyuLi"/>
+        
         </div>
      </div>
 
