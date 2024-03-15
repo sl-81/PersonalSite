@@ -37,7 +37,8 @@ interface ProjectProps {
             </span>
             <img className="
                 border-2 
-                border-black"
+                border-black
+                max-h-80"
                  src={props.src} alt="projectimage">
             </img>
             <span className="
