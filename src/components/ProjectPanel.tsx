@@ -6,7 +6,7 @@ import MMImg from '/projectimg/Mymeds.png'
 import ETImg from '/projectimg/Eventtracker.png'
 import PBImg from '/projectimg/Pharmabot.png';
 import DLImg from '/projectimg/Dreamland.png';
-
+import YBImg from '/projectimg/yummybara.png';
 
 
 const ProjectPanel =() => {
@@ -29,6 +29,12 @@ const ProjectPanel =() => {
         max-w-screen-lg 
         mx-auto
         opacity-100">
+        <Project 
+            title="YummyBara"
+            skills="React Native, Google Gemini, Google Vertex, CSS, Firebase, JavaScript"
+            desc="YummyBara is a Healthy Lifestyle mobile app that enables users to track and monitor their caloric intake overtime with a simple snap of a photo!"
+            src={YBImg}
+            demo="https://devpost.com/software/yummybara"/>
         <Project title="DreamLand"
             skills="React Native, Cohere, OpenAI DALL-E, CSS, Firebase, JavaScript"
             desc="Utilizing cutting-edge AI technology, Dreamland empowers parents to effortlessly generate captivating bedtime stories at the tap of a button. 
@@ -73,6 +79,7 @@ const ProjectPanel =() => {
             list of upcoming events at the user’s request."
             src={ETImg}
             demo="https://www.youtube.com/watch?v=bZM6PUbXBZw&ab_channel=ShiyuLi"/>
+
         
         </div>
      </div>
